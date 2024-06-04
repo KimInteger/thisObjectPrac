@@ -19,4 +19,4 @@ let itsMe = {
 };
 
 console.dir("객체에서 보는 this : ", itsMe);
-console.log("객체에서 보는 this : ", itsMe.sentence());
+console.log("매서드 에서 보는 this : ", itsMe.sentence());
