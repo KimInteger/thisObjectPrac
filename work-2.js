@@ -21,9 +21,12 @@ class WorkTwo {
       // Error를 던진다.
     }
   }
+
+  add(){
+    return this._a + this._b;
+  }
 }
 
 let test = new WorkTwo(1, 2);
 console.log(test);
-console.dir(test);
-console.log(test._a + test._b);
+console.log(test.add());
