@@ -9,6 +9,7 @@ class WorkTwo {
       return this._a = value;
     } else {
       throw new Error('a는 숫자만 입력 가능합니다.');
+      // Error를 던진다.
     }
   }
 }
