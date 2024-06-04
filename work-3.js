@@ -7,3 +7,16 @@ function workThree(a,b) {
 
 let test = workThree(1,2);
 console.log(test);
+
+let itsMe = {
+  name : '인티저',
+  age : 29,
+  live : 'Korea',
+  test : this,
+  sentence : function() {
+    return this.name + '은 int이다.';
+  }
+};
+
+console.dir("객체에서 보는 this : ", itsMe);
+console.log("객체에서 보는 this : ", itsMe.sentence());
