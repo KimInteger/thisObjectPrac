@@ -1,1 +1,1 @@
-console.log('work-3만듬');
+console.log(this);
