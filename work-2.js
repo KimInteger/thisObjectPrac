@@ -29,4 +29,5 @@ class WorkTwo {
 
 let test = new WorkTwo(1, 2);
 console.log(test);
-console.log(test.add());
+
+console.log(test instanceof WorkTwo);
