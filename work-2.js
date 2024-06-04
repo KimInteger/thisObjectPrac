@@ -12,7 +12,16 @@ class WorkTwo {
       // Error를 던진다.
     }
   }
+
+  set b(value) {
+    if(typeof(value)==='number'){
+      return this._b = value;
+    } else {
+      throw new Error('b는 숫자만 입력 가능합니다.');
+      // Error를 던진다.
+    }
+  }
 }
 
-let test = new WorkTwo(5,'야호');
+let test = new WorkTwo(11, 5);
 console.log(test);
