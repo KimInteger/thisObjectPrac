@@ -4,3 +4,6 @@ class WorkTwo {
     this.b = b;
   }
 }
+
+let test = new WorkTwo('きっさま','야호');
+console.log(test);
