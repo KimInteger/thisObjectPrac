@@ -1,1 +1,5 @@
-console.log('와 work-2!');
+class WorkTwo {
+  constructor () {
+
+  }
+}
