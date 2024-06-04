@@ -1,1 +1,4 @@
-console.log('와 work-1!');
+function workOne(a,b) {
+  let local = a + b;
+  return local;
+};
