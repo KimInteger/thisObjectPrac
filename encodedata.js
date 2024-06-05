@@ -37,14 +37,14 @@ let someArray = [];
 mainContent.forEach((count)=>{
   let testCont = count.split(',');
   let obj = {
-    '지역' : testCont[0],
-    '2016' : testCont[1],
-    '2017' : testCont[2],
-    '2018' : testCont[3],
-    '2019' : testCont[4],
-    '2020' : testCont[5],
-    '2021' : testCont[6],
-    '2022' : testCont[7]
+    [menuArray[0]] : testCont[0],
+    [menuArray[1]] : testCont[1],
+    [menuArray[2]] : testCont[2],
+    [menuArray[3]] : testCont[3],
+    [menuArray[4]] : testCont[4],
+    [menuArray[5]] : testCont[5],
+    [menuArray[6]] : testCont[6],
+    [menuArray[7]] : testCont[7]
   }
 
   someArray.push(obj);
